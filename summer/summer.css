@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 70px 10px 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #141313;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 3%;
+}
+.sud{
+    color: rgb(255, 0, 0);
+    font-family: "Tac One", sans-serif;
+    font-style: normal;;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 700;
+}
+.travel{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 32px;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: #f3ecec;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 50%;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.butt{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+}
+.bu{
+    background-color: transparent;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 10px 2px;
+    margin-left: 4px;
+    width: 200px;
+    justify-content: space-between;
+}
+.signup{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: right;
+    margin-left: 50px;
+    display: inline-block;
+}.gigantic-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2rem;
+    background-image:url('../aymen/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.massive-section {
+	margin-top: 5%;
+	flex: 1 1 30%;
+	margin-bottom: 2rem;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	text-align: center;
+	transition: transform 0.3s ease-in-out;
+}
+
+.massive-section:hover {
+	transform: translateY(-10px);
+}
+
+.huge-heading {
+	margin-top: 0;
+}
+
+.big-paragraph {
+	margin-bottom: 1rem;
+}
+
+.large-image {
+	max-width: 400px;
+
+	height: 300px;
+}
+
+@media (max-width: 768px) {
+	.gigantic-main {
+		flex-direction: column;
+	}
+
+	.massive-section {
+		flex: 1 1 100%;
+	}
+}
+.search-icon {
+    color: #ffffff; /* Set the color of the icon */
+    font-size: 20px; /* Size of the icon */
+    cursor: pointer;
+    padding-right: 20px; /* Space between the icon and the logo */
+}
+
+.search-icon:hover {
+    color: #0084ff; /* Color when hovering over the icon */
+}

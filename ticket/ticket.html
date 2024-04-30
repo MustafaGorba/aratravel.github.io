@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Booking Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="ticket.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tac+One&display=swap" rel="stylesheet">
+      <header class="header">
+        <nav class="navbar">
+          <a href="../css/css.html">home</a>
+          <a href="../aymen/about.html">about</a>
+          <a href="../aymen/services.html">services</a>
+          <a href="../menu/osman.html">contact</a>
+        </nav>
+    </header>
+</head>
+<body>
+<div class="booking-form-w3layouts">
+  <!-- Form starts here -->
+  <form action="../css/css.html">
+    <h2 class="sub-heading-agileits">Booking Details</h2>
+    <div class="main-flex-w3ls-sectns">
+      <div class="field-agileinfo-spc form-w3-agile-text1">
+        <select class="form-control">
+                  <option>From</option>
+                  <option value="Lorem Ipsum">SUDAN</option>
+                  <option value="Adipiscing">EGYPT</option>
+                  <option value="Lorem Ipsum">TURKEY</option>
+                  <option value="Adipiscing">UAE</option>
+                  <option value="Lorem Ipsum">SAUDI ARABIA</option>
+                  <option value="Adipiscing">QATAR</option>
+                  <option value="">SPAIN</option>
+                  <option value="">FRENCH</option>
+                  <option value="">USA</option>
+                </select>
+      </div>
+      <div class="field-agileinfo-spc form-w3-agile-text2">
+        <select class="form-control">
+                  <option>To</option>
+                  <option value="Lorem Ipsum">SUDAN</option>
+                  <option value="Adipiscing">EGYPT</option>
+                  <option value="Lorem Ipsum">TURKEY</option>
+                  <option value="Adipiscing">UAE</option>
+                  <option value="Lorem Ipsum">SUADI ARABIA</option>
+                  <option value="Adipiscing">QATAR</option>
+                  <option value="">SPAIN</option>
+                  <option value="">FRENCH</option>
+                  <option value="">USA</option>
+                </select>
+      </div>
+    </div>
+    <div class="main-flex-w3ls-sectns">
+     
+      <div class="field-agileinfo-spc form-w3-agile-text2">
+        <select class="form-control">
+                  <option>Preferred Seating</option>
+                  <option value="Window">Window</option>
+                  <option value="Aisle">Aisle</option>
+                  <option value="Special">Special (Request note below)</option>
+                </select>
+      </div>
+    </div>
+    <div class="main-flex-w3ls-sectns">
+      <div class="field-agileinfo-spc form-w3-agile-text1">
+        <input id="datepicker" name="Text" type="text" placeholder="Departure Date" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="" class="hasDatepicker">
+      </div>
+      <div class="field-agileinfo-spc form-w3-agile-text2">
+        <input type="text" id="timepicker" name="Time" class="timepicker form-control hasWickedpicker" placeholder="Departure Time" value="" onkeypress="return false;">
+      </div>
+    </div>
+
+    <div class="triple-wthree">
+      <div class="field-agileinfo-spc form-w3-agile-text11">
+        <select class="form-control">
+                      <option value="">Adult(12+ Yrs)</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5+</option>
+                    </select>
+      </div>
+      <div class="field-agileinfo-spc form-w3-agile-text22">
+        <select class="form-control">
+                      <option value="">Children(2-11 Yrs)</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5+</option>
+                    </select>
+      </div>
+      <div class="field-agileinfo-spc form-w3-agile-text33">
+        <select class="form-control">
+                      <option value="">Infant(under 2Yrs)</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5+</option>
+                    </select>
+      </div>
+    </div>
+    <div class="radio-section">
+      <h6>Select your Fare</h6>
+      <ul class="radio-buttons-w3-agileits">
+        <li>
+          <input type="radio" id="a-option" name="selector1">
+          <label for="a-option">One Way</label>
+          <div class="check"></div>
+        </li>
+        <li>
+          <input type="radio" id="b-option" name="selector1">
+          <label for="b-option">Round-Trip</label>
+          <div class="check">
+            <div class="inside"></div>
+          </div>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="main-flex-w3ls-sectns">
+      <div class="field-agileinfo-spc form-w3-agile-text1">
+        <input id="datepicker1" name="Text" type="text" placeholder="Return Date" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="" class="hasDatepicker">
+      </div>
+      <div class="field-agileinfo-spc form-w3-agile-text2">
+        <input type="text" id="timepicker1" name="Time" class="timepicker form-control hasWickedpicker" placeholder="Return Time" value="" onkeypress="return false;">
+      </div>
+    </div>
+    <div class="field-agileinfo-spc form-w3-agile-text">
+      <textarea name="Message" placeholder="Any Message..."></textarea>
+    </div>
+    <h3 class="sub-heading-agileits">Personal Details</h3>
+    <div class="main-flex-w3ls-sectns">
+      <div class="field-agileinfo-spc form-w3-agile-text1">
+        <input type="text" name="Name" placeholder="Full Name" required="">
+      </div>
+      <div class="field-agileinfo-spc form-w3-agile-text2">
+        <input type="text" name="Phone no" placeholder="Phone Number" required="">
+      </div>
+    </div>
+    <div class="field-agileinfo-spc form-w3-agile-text">
+      <input type="email" name="Email" placeholder="Email" required="">
+    </div>
+    <div class="clear"></div>
+    <input type="submit" value="Submit" onclick="myFunction()">
+	<script>
+		function myFunction() {
+			alert("thank you for your consideration,all information in manage your trips page");                     }
+	</script>
+    <input type="reset" value="Clear Form">
+    <div class="clear"></div>
+  </form>
+  <!--// Form starts here -->
+</div>
+</body>
+</html>

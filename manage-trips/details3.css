@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+  
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url('../css/airport.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 70px 10px 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #141313;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 3%;
+}
+.sud{
+    color: rgb(255, 0, 0);
+    font-family: "Tac One", sans-serif;
+    font-style: normal;;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 700;
+}
+.travel{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 32px;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: #f3ecec;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 50%;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.butt{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+}
+.bu{
+    background-color: transparent;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 10px 2px;
+    margin-left: 4px;
+    width: 200px;
+    justify-content: space-between;
+}
+.signup{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: right;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+
+body,
+html {
+	height: 100vh;
+	display: grid;
+	font-family: "Staatliches", cursive;
+	background: #d83565;
+	color: black;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.ticket {
+	margin: auto;
+	display: flex;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.left {
+	display: flex;
+}
+
+.image {
+	height: 250px;
+	width: 250px;
+	background-image: url("../manage-trips/imgs/man2.jpg");
+	background-size: contain;
+	opacity: 0.85;
+}
+
+.admit-one {
+	position: absolute;
+	color: darkgray;
+	height: 250px;
+	padding: 0 10px;
+	letter-spacing: 0.15em;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	writing-mode: vertical-rl;
+	transform: rotate(-180deg);
+}
+
+.admit-one span:nth-child(2) {
+	color: white;
+	font-weight: 700;
+}
+
+.left .ticket-number {
+	height: 250px;
+	width: 250px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 5px;
+}
+
+.ticket-info {
+	padding: 10px 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.date {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 5px 0;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.date span {
+	width: 100px;
+}
+
+.date span:first-child {
+	text-align: left;
+}
+
+.date span:last-child {
+	text-align: right;
+}
+
+.date .june-29 {
+	color: #d83565;
+	font-size: 20px;
+}
+
+.show-name {
+	font-size: 32px;
+	font-family: "Nanum Pen Script", cursive;
+	color: #d83565;
+}
+
+.show-name h1 {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #4a437e;
+}
+
+.time {
+	padding: 10px 0;
+	color: #4a437e;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-weight: 700;
+}
+
+.time span {
+	font-weight: 400;
+	color: gray;
+}
+
+.left .time {
+	font-size: 16px;
+}
+
+
+.location {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding-top: 8px;
+	border-top: 1px solid gray;
+}
+
+.location .separator {
+	font-size: 20px;
+}
+
+.right {
+	width: 180px;
+	border-left: 1px dashed #404040;
+}
+
+.right .admit-one {
+	color: darkgray;
+}
+
+.right .admit-one span:nth-child(2) {
+	color: gray;
+}
+
+.right .right-info-container {
+	height: 250px;
+	padding: 10px 10px 10px 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.right .show-name h1 {
+	font-size: 18px;
+}
+
+.barcode {
+	height: 100px;
+}
+
+.barcode img {
+	height: 100%;
+}
+
+.right .ticket-number {
+	color: gray;
+}
+.back a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50%;
+    font-size: 22px;
+    border: black;
+    border-radius: 45px;
+    border-left: 3px;
+    border-right: 3px;
+    border: top 3px;
+    border-bottom: 3px;
+    background-color: #141313;
+}
