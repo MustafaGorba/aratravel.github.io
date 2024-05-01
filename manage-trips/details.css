@@ -133,7 +133,7 @@ html {
 .image {
 	height: 250px;
 	width: 250px;
-	background-image: url("/manage-trips/imgs/man1.jpg");
+	background-image: url("imgs/man1.jpg");
 	background-size: contain;
 	opacity: 0.85;
 }
