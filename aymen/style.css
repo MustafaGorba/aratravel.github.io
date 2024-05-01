@@ -92,7 +92,7 @@ body {
 	line-height: 1.6;
 }
 .background-image {
-	background-image: url('../manage-trips/manage.jpg');
+	background-image: url('/manage-trips/manage.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -196,7 +196,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 2rem;
-    background-image:url('../aymen/images/background.jpg');
+    background-image:url('/aymen/images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: cursive;

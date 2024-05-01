@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background: url('login form/login.jpg') no-repeat;
+  background: url('/login form/login.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(2px);
